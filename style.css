@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+:focus,:active{outline: none;}
+
+.wordsReverse{
+  text-align: center;
+  margin: 0px auto;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  width: 100%;
+  padding: 100px 0px 200px 0px;
+}
+
+.wordsReverse-title{
+  margin-bottom: 20px;
+  font-size: 40px;
+  transition-duration: 0.5s;
+}
+.wordsReverse-title:hover{
+  transition-duration: 0.5s;
+  text-shadow: 0px 0px 10px white;
+}
+
+.wordsReverse-inputReverse{
+  width: 400px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 3px solid black;
+  transition-duration: 0.5s;
+}
+
+.wordsReverse-inputReverse:hover{
+  transition-duration: 0.5s;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.wordsReverse-inputReverse:focus{
+  transition-duration: 0.5s;
+  background-color: black;
+  color: white;
+  border: 3px solid green;
+}
+
+.wordsReverse-titleResult{
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+.wordsReverse-titleResult:hover{
+  transition-duration: 0.5s;
+  text-shadow: 0px 0px 10px white;
+}
+
+.wordsReverse-titleResult span{
+  font-size: 20px;
+  font-weight: 400;
+}
